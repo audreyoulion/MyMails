@@ -31,6 +31,10 @@ body {
     margin: 10px 10px 10px 15px;
 }
 
+#brand_name {
+    color: #90a4ae;
+}
+
 #settings {
     width: 25px;
     height: 25px;
@@ -41,6 +45,7 @@ body {
     width: 50vw;
     height: 45%;
     border: 1px solid lightgrey;
+    border-radius: 5px;
 }
 
 ::placeholder {
@@ -93,6 +98,16 @@ body {
     width: 15px;
     height: 15px;
     margin: 15px;
+}
+
+#first_mail {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#last-mail {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 /* Texts */
