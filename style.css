@@ -9,12 +9,14 @@ body {
 /* Nav bar */
 
 .header {
-    background-color: #eee8e7;
+    background-color: #fdfcfc;
     height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .brand {

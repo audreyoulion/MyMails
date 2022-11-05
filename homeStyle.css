@@ -58,8 +58,7 @@ button:hover {
     width: 60vw;
     height: 100vh;
     background-image: url("My\ Mails-Assets/New message-rafiki.png");
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
-
