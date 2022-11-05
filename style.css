@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#F5F6FA;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container:first-child {
+    margin-top: 20px;
+}
+
+/* Mail */
+
+.mail {
+    background-color: #FFFFFF;
+    border: 1px solid #DADADA;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 60px;
+    width: auto;
+    margin: 15px;
+}
+
+.trash-icon {
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+}
+
+/* Texts */
+
+h6, p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 5px;
+}
