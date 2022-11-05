@@ -43,13 +43,13 @@ button {
     font-size: larger;
     border-radius: 50px;
     border: none;
-    background-color: #f36b51;
-    color: #3b4969;
+    background-color: #FF6802;
+    color: #FCFCF9;
 }
 
 button:hover {
-    background-color: #fdb591;
-    box-shadow: 1px 1px 1px 1px #f8b192;
+    background-color: #FFA120;
+    box-shadow: 1px 1px 1px 1px #eae4e2;
 }
 
 /* Right side */

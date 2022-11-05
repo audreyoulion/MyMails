@@ -3,13 +3,13 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f2f2fb;
+    background-color: #e8e1df;
 }
 
 /* Nav bar */
 
 .header {
-    background-color: #fdfcfc;
+    background-color: #A19EDA;
     height: 50px;
     display: flex;
     flex-direction: row;
@@ -34,7 +34,7 @@ body {
 }
 
 #brand_name {
-    color: #3b4969;
+    color: #FCFCF9;
 }
 
 #settings {
@@ -47,11 +47,12 @@ body {
     width: 50vw;
     height: 50%;
     border: 1px solid lightgrey;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 ::placeholder {
     color: lightgrey;
+    text-align: center;
 }
 
 /* Container */
@@ -69,7 +70,7 @@ body {
 /* Mail */
 
 .mail {
-    background-color: #FFFFFF;
+    background-color: #fdfcfc;
     border-top: 1px solid #DADADA;
     border-left: 1px solid #DADADA;
     border-right: 1px solid #DADADA;
@@ -80,14 +81,14 @@ body {
 }
 
 .mail:first-child {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .mail:last-child {
     border-bottom: 1px solid #DADADA;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .text-content {
