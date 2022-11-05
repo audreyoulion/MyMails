@@ -3,13 +3,13 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #edf2fb;
+    background-color: #f2f2fb;
 }
 
 /* Nav bar */
 
 .header {
-    background-color: #FFFFFF;
+    background-color: #eee8e7;
     height: 50px;
     display: flex;
     flex-direction: row;
@@ -32,7 +32,7 @@ body {
 }
 
 #brand_name {
-    color: #90a4ae;
+    color: #3b4969;
 }
 
 #settings {
@@ -113,6 +113,7 @@ h6, p {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     margin: 5px;
+    color: #3b4969;
 }
 
 h6 {

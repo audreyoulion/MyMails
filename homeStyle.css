@@ -2,7 +2,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #edf2fb;
+    background-color: #e8e1df;
 }
 
 /* CONTAINER */
@@ -29,6 +29,7 @@ body {
 h1, p {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    color: #3b4969;
 }
 
 p {
@@ -41,11 +42,14 @@ button {
     height: 50px;
     font-size: larger;
     border-radius: 50px;
+    border: none;
+    background-color: #f36b51;
+    color: #3b4969;
 }
 
 button:hover {
-    background-color: #caf0f8;
-    box-shadow: 1px 1px 1px 1px #edf2fb;
+    background-color: #fdb591;
+    box-shadow: 1px 1px 1px 1px #f8b192;
 }
 
 /* Right side */
