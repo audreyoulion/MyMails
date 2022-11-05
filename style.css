@@ -6,17 +6,57 @@ body {
     background-color:#F5F6FA;
 }
 
-.container {
-    width: 100vw;
-    height: 100vh;
+/* Nav bar */
+
+.header {
+    background-color: #FFFFFF;
+    height: 7vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
 }
 
-.container:first-child {
+#logo {
+    width: 33px;
+    height: auto;
+    margin: 10px 10px 10px 15px;
+}
+
+#settings {
+    width: 25px;
+    height: 25px;
+    margin: 10px 15px 10px 10px;
+}
+
+#search {
+    width: 50vw;
+    height: 45%;
+    border: 1px solid lightgrey;
+}
+
+::placeholder {
+    color: lightgrey;
+}
+
+/* Container */
+
+.container {
+    width: 100vw;
+    height: 80vh;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 /* Mail */
