@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color:#F5F6FA;
+    background-color: #edf2fb;
 }
 
 /* Nav bar */
@@ -43,7 +43,7 @@ body {
 
 #search {
     width: 50vw;
-    height: 45%;
+    height: 50%;
     border: 1px solid lightgrey;
     border-radius: 5px;
 }
