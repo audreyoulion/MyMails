@@ -6,6 +6,68 @@ body {
     background-color: #e8e1df;
 }
 
+/* HOME PAGE */ 
+
+/* HOME PAGE CONTAINER */
+
+.home-container {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Left side */
+
+.left-side {
+    width: 40vw;
+    height: 80vh;
+    margin: 5vh 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-texts {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #3b4969;
+}
+
+p.home-texts {
+    font-size:larger;
+    line-height: 35px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    border-radius: 50px;
+    border: none;
+    background-color: #FF6802;
+    color: #FCFCF9;
+}
+
+button:hover {
+    background-color: #FFA120;
+    box-shadow: 1px 1px 1px 1px #eae4e2;
+}
+
+/* Right side */
+
+.right-side {
+    width: 60vw;
+    height: 100vh;
+    background-image: url("My\ Mails-Assets/New message-rafiki.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* MAILBOX */ 
+
 /* Nav bar */
 
 .header {
@@ -55,7 +117,7 @@ body {
     text-align: center;
 }
 
-/* Container */
+/* MAILBOX Container */
 
 .container {
     width: 100vw;
@@ -110,15 +172,15 @@ body {
     margin: 15px;
 }
 
-/* Texts */
+/* MAIL Texts */
 
-h6, p {
+h6.mail-text, p.mail-text {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     margin: 5px;
     color: #3b4969;
 }
 
-h6 {
+h6.mail-text {
     font-weight: bold;
 }
