@@ -85,6 +85,10 @@ button:hover {
     border-bottom-right-radius: 5px;
 }
 
+#mailbox-header {
+    justify-content: space-between;
+}
+
 .brand {
     width: 10vw;
     display: flex;
