@@ -16,8 +16,28 @@
     </div>
 
     <div class="login-container">
-        <div class="login-form">
-            <form action="/index.html">
+        <div class="login-modal">
+            <div>
+                <h3>Create Account</h3>
+                <p>You are 5 minutes away from discovering your mailbox</p>
+            </div>
+            <form action="/index.html" class="login-form">
+                <div class="field">
+                    <label for="first-name">First name</label>
+                    <input type="text" name="first-name" id="first-name" required>
+                </div>
+                <div class="field">
+                    <label for="last-name">Last name</label>
+                    <input type="text" name="last-name" id="last-name" required>
+                </div>
+                <div class="field">
+                    <label for="email">Email address</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="field">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
                 <button>Sign up</button>
             </form>
 
