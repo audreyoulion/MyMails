@@ -184,3 +184,22 @@ h6.mail-text, p.mail-text {
 h6.mail-text {
     font-weight: bold;
 }
+
+/* LOGIN */ 
+
+.login-container {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    background-color: #FCFCF9;
+    width: 35vw;
+    height: 70vh;
+    border-radius: 25px;
+}
+
