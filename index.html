@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,65 +8,82 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
 
-    <div class="header" id="mailbox-header">
-        <div class="brand">
-            <img id="logo" src="/My Mails-Assets/open-message.png" alt="an open envelop with a letter">
-            <h6 id="brand_name" class="mail-text">MyMails</h6>
+    <div id="container">
+        <div id="container-head">
+            <div class="row">
+                <h5 class="row-title">Total messages: <span id="mailcount">0</span></h5>
+            </div>
+
+            <div class="row" id="new-message">
+                <input id="mail-input" name="mail-input" type="text" placeholder="new message">
+                <button class="secondary-button" id="addMail">Add</button>
+            </div>
+
         </div>
-        <input id="search" type="text" placeholder="Search in mails">
-        <img id="settings" src="/My Mails-Assets/settings copie.png" alt="star wheel icon">
+
+        <div id="container-mails">
+            <div class="row">
+                <img class="avatar" src="/My Mails-Assets/avatar-1.jpg" alt="Man with red hair icon">
+                <div class="mail">
+                    <h6 class="mail-text">Noel Paganelli</h6>
+                    <p class="mail-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur
+                        consequuntur enim iste autem nostrum, minima praesentium quas doloremque. Voluptatibus id,
+                        architecto mollitia esse nulla corporis? Laudantium blanditiis ratione soluta!</p>
+                </div>
+                <img class="trash-icon" src="/My Mails-Assets/trash.png" alt="trash icon">
+            </div>
+
+            <div class="row">
+                <img class="avatar" src="/My Mails-Assets/avatar-2.jpg" alt="Woman with red hair icon">
+                <div class="mail">
+                    <h6 class="mail-text">Elise Watson</h6>
+                    <p class="mail-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur
+                        consequuntur enim iste autem nostrum, minima praesentium quas doloremque. Voluptatibus id,
+                        architecto mollitia esse nulla corporis? Laudantium blanditiis ratione soluta!</p>
+                </div>
+                <img class="trash-icon" src="/My Mails-Assets/trash.png" alt="trash icon">
+            </div>
+
+            <div class="row">
+                <img class="avatar" src="/My Mails-Assets/avatar-3.jpg" alt="Man with blond hair icon">
+                <div class="mail">
+                    <h6 class="mail-text">Adam Keval</h6>
+                    <p class="mail-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur
+                        consequuntur enim iste autem nostrum, minima praesentium quas doloremque. Voluptatibus id,
+                        architecto mollitia esse nulla corporis? Laudantium blanditiis ratione soluta!</p>
+                </div>
+                <img class="trash-icon" src="/My Mails-Assets/trash.png" alt="trash icon">
+            </div>
+
+            <div class="row">
+                <img class="avatar" src="/My Mails-Assets/avatar-4.jpg" alt="Woman with brown hair icon">
+                <div class="mail">
+                    <h6 class="mail-text">Alexandra Pozi</h6>
+                    <p class="mail-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur
+                        consequuntur enim iste autem nostrum, minima praesentium quas doloremque. Voluptatibus id,
+                        architecto mollitia esse nulla corporis? Laudantium blanditiis ratione soluta!</p>
+                </div>
+                <img class="trash-icon" src="/My Mails-Assets/trash.png" alt="trash icon">
+            </div>
+
+            <div class="row">
+                <img class="avatar" src="/My Mails-Assets/avatar-5.jpg" alt="Woman with brown hair icon">
+                <div class="mail">
+                    <h6 class="mail-text">Zoe Milot</h6>
+                    <p class="mail-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur
+                        consequuntur enim iste autem nostrum, minima praesentium quas doloremque. Voluptatibus id,
+                        architecto mollitia esse nulla corporis? Laudantium blanditiis ratione soluta!</p>
+                </div>
+                <img class="trash-icon" src="/My Mails-Assets/trash.png" alt="trash icon">
+            </div>
+
+        </div>
+
     </div>
-
-    <div class="container">
-
-        <div class="mail">
-            <img class="avatar" src="/My Mails-Assets/avatar-1.jpg" alt="Man with red hair icon">
-            <div class="text-content">
-            <h6 class="mail-text">Noel Paganelli</h6>
-            <p class="mail-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur consequuntur enim iste autem nostrum, minima praesentium quas doloremque. Voluptatibus id, architecto mollitia esse nulla corporis? Laudantium blanditiis ratione soluta!</p>
-            </div>
-            <img class="trash-icon" src="/My Mails-Assets/trash.png" alt="trash icon">
-        </div>
-
-        <div class="mail">
-            <img class="avatar" src="/My Mails-Assets/avatar-2.jpg" alt="Woman with red hair icon">
-            <div class="text-content">
-            <h6 class="mail-text">Elise Watson</h6>
-            <p class="mail-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur consequuntur enim iste autem nostrum, minima praesentium quas doloremque. Voluptatibus id, architecto mollitia esse nulla corporis? Laudantium blanditiis ratione soluta!</p>
-            </div>
-            <img class="trash-icon" src="/My Mails-Assets/trash.png" alt="trash icon">
-        </div>
-
-        <div class="mail">
-            <img class="avatar" src="/My Mails-Assets/avatar-3.jpg" alt="Man with blond hair icon">
-            <div class="text-content">
-            <h6 class="mail-text">Adam Keval</h6>
-            <p class="mail-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur consequuntur enim iste autem nostrum, minima praesentium quas doloremque. Voluptatibus id, architecto mollitia esse nulla corporis? Laudantium blanditiis ratione soluta!</p>
-            </div>
-            <img class="trash-icon" src="/My Mails-Assets/trash.png" alt="trash icon">
-        </div>
-
-        <div class="mail">
-            <img class="avatar" src="/My Mails-Assets/avatar-4.jpg" alt="Woman with brown hair icon">
-            <div class="text-content">
-            <h6 class="mail-text">Alexandra Pozi</h6>
-            <p class="mail-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur consequuntur enim iste autem nostrum, minima praesentium quas doloremque. Voluptatibus id, architecto mollitia esse nulla corporis? Laudantium blanditiis ratione soluta!</p>
-            </div>
-            <img class="trash-icon" src="/My Mails-Assets/trash.png" alt="trash icon">
-        </div>
-
-        <div class="mail">
-            <img class="avatar" src="/My Mails-Assets/avatar-5.jpg" alt="Woman with brown hair icon">
-            <div class="text-content">
-            <h6 class="mail-text">Zoe Milot</h6>
-            <p class="mail-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur consequuntur enim iste autem nostrum, minima praesentium quas doloremque. Voluptatibus id, architecto mollitia esse nulla corporis? Laudantium blanditiis ratione soluta!</p>
-            </div>
-            <img class="trash-icon" src="/My Mails-Assets/trash.png" alt="trash icon">
-        </div>
-
-    </div>
-    
+    <script src="script.js"></script>
 </body>
+
 </html>
