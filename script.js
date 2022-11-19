@@ -5,8 +5,8 @@ var mailcount = document.getElementById("mailcount");
 mailcount.textContent = mails.length;
 
 var trashs = document.getElementsByClassName("trash-icon");
-for (var i=0; i<trashs.length; i++) {
-    trashs[i].addEventListener("click", function(){
+for (var i = 0; i < trashs.length; i++) {
+    trashs[i].addEventListener("click", function () {
         this.parentNode.remove();
         mailcount.textContent--;
     });
@@ -14,7 +14,7 @@ for (var i=0; i<trashs.length; i++) {
 
 var mailbox = document.getElementById("container-mails");
 
-document.getElementById("addMail").addEventListener("click", function() {
+document.getElementById("addMail").addEventListener("click", function () {
     var newMail = document.createElement("div");
     newMail.className = "row";
     mailbox.insertBefore(newMail, mailbox.firstChild);
@@ -43,5 +43,12 @@ document.getElementById("addMail").addEventListener("click", function() {
     trash.src = "/My Mails-Assets/trash.png";
     trash.className = "trash-icon";
     newMail.appendChild(trash);
-   
+    trash.addEventListener("click", function () {
+        this.parentNode.remove();
+        mailcount.textContent--;
+    });
+
+    mailcount.textContent++;
+    document.getElementById("mail-input").value = "";
+
 })

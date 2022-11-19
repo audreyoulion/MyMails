@@ -214,6 +214,7 @@ li {
     display: flex;
     flex-direction: column;
     margin: 15px 0px;
+    width: 80%;
 }
 
 .avatar {
