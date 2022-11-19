@@ -15,6 +15,7 @@ for (var i = 0; i < trashs.length; i++) {
 var mailbox = document.getElementById("container-mails");
 
 document.getElementById("addMail").addEventListener("click", function () {
+    if (document.getElementById("mail-input").value) {
     var newMail = document.createElement("div");
     newMail.className = "row";
     mailbox.insertBefore(newMail, mailbox.firstChild);
@@ -50,5 +51,7 @@ document.getElementById("addMail").addEventListener("click", function () {
 
     mailcount.textContent++;
     document.getElementById("mail-input").value = "";
-
+} else {
+   alert("You need to write something before adding a new mail.")
+}
 })
