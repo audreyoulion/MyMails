@@ -15,7 +15,7 @@ h1, h2, h3, h6, p, label, li, h5 {
 
 /* HOME PAGE CONTAINER */
 
-.home-container {
+#home-container {
     width: 100vw;
     height: 80vh;
     display: flex;
@@ -60,6 +60,23 @@ p.home-texts {
     box-shadow: 1px 1px 1px lightgray;
 }
 
+.header-button {
+    color: #FCFCF9;
+    border: solid 1px #FCFCF9;
+    width: 10%;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+.header-button:hover {
+    background-color: #FF6802;
+    color: #FCFCF9;
+    cursor: pointer;
+    border : none;
+}
+
 /* Right side */
 
 .right-side {
@@ -70,6 +87,16 @@ p.home-texts {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.right-side-dm {
+    width: 60vw;
+    height: 100vh;
+    background-image: url("My\ Mails-Assets/New message-rafiki-dm.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 /* MAILBOX */ 
 
@@ -82,12 +109,9 @@ p.home-texts {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    justify-content: space-between;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-}
-
-#mailbox-header {
-    justify-content: space-between;
 }
 
 .brand {
@@ -189,15 +213,18 @@ input[type=text]:focus {
     margin: 10px;
     padding: 8px;
     border-radius: 50px;
-    border: solid 1px #FF6802;
-    color: #FF6802;
-    background-color: #FCFCF9;
+    background-color: transparent;
 }
 
-.secondary-button:hover {
+#addMail:hover {
     background-color: #FF6802;
     color: #FCFCF9;
     cursor: pointer;
+}
+
+#addMail {
+    border: solid 1px #FF6802;
+    color: #FF6802;
 }
 
 

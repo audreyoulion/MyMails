@@ -1,5 +1,7 @@
 /* Interactions with Mail interface */
 
+/* Mail count */
+
 var mails = document.getElementsByClassName("mail");
 var mailcount = document.getElementById("mailcount");
 mailcount.textContent = mails.length;
@@ -11,6 +13,8 @@ for (var i = 0; i < trashs.length; i++) {
         mailcount.textContent--;
     });
 };
+
+/* Add mail */
 
 var mailbox = document.getElementById("container-mails");
 
